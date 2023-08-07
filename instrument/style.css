@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Outfit:wght@400;700&family=Poppins:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald&family=Outfit:wght@400;700&family=Poppins:wght@300;600&display=swap");
+:root {
+  --black: #000;
+  --white: #fff;
+  --blue: #6c83ff;
+  --orange: #ffa98e;
+}
+
+html {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Oswald";
+  text-transform: uppercase;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero {
+  padding: 1rem;
+}
+.hero-text {
+  font-size: min(75px, 25vh);
+  font-family: "Lato";
+  display: flex;
+  gap: 1rem;
+}
+.hero-text:hover {
+  text-decoration: underline var(--orange) 2px;
+}
