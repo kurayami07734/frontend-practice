@@ -10,6 +10,7 @@
 html {
   background-color: var(--black);
   color: var(--white);
+  font-family: sans-serif;
 }
 
 nav {
@@ -29,13 +30,26 @@ nav {
 
 .hero {
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 .hero-text {
   font-size: min(75px, 25vh);
   font-family: "Lato";
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 .hero-text:hover {
   text-decoration: underline var(--orange) 2px;
+}
+.btn {
+  background-color: var(--white);
+  max-width: 10rem;
+  color: var(--black);
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+}
+.camera-img {
+  padding: 2rem;
+  width: 90vw;
 }
